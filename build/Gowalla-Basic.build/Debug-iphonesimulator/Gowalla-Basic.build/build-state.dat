@@ -1,0 +1,1487 @@
+TGowalla-Basic
+v7
+r0
+t316924669.680666
+cCheck dependencies
+cProcessInfoPlistFile /Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app/Info.plist Resources/Info.plist
+cCompileXIB /Developer/sri/projectp/Resources/XIB/SpotsView.xib
+cCompileXIB /Developer/sri/projectp/Resources/XIB/SpotView.xib
+cCompileXIB /Developer/sri/projectp/Resources/XIB/MainWindow.xib
+cCompileXIB /Developer/sri/projectp/Resources/XIB/PassportView.xib
+cCompileXIB /Developer/sri/projectp/Resources/XIB/AuthenticationView.xib
+cCompileXIB /Developer/sri/projectp/Resources/XIB/CheckInSuccessView.xib
+cCpResource build/Debug-iphonesimulator/Gowalla-Basic.app/button-orange_308.png Resources/Images/button-orange_308.png
+cCpResource build/Debug-iphonesimulator/Gowalla-Basic.app/button-orange-active_308.png Resources/Images/button-orange-active_308.png
+cCpResource build/Debug-iphonesimulator/Gowalla-Basic.app/checkmark-corner_22.png Resources/Images/checkmark-corner_22.png
+cProcessPCH /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch.gch Gowalla_Basic_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/main.o /Developer/sri/projectp/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/Gowalla_BasicAppDelegate.o /Developer/sri/projectp/Classes/Gowalla_BasicAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/SpotsViewController.o /Developer/sri/projectp/Classes/Controllers/SpotsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/SpotViewController.o /Developer/sri/projectp/Classes/Controllers/SpotViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CDataScanner.o /Developer/sri/projectp/Libraries/TouchJSON/CDataScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CDataScanner_Extensions.o /Developer/sri/projectp/Libraries/TouchJSON/Extensions/CDataScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/NSCharacterSet_Extensions.o /Developer/sri/projectp/Libraries/TouchJSON/Extensions/NSCharacterSet_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/NSDictionary_JSONExtensions.o /Developer/sri/projectp/Libraries/TouchJSON/Extensions/NSDictionary_JSONExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/NSScanner_Extensions.o /Developer/sri/projectp/Libraries/TouchJSON/Extensions/NSScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CJSONDataSerializer.o /Developer/sri/projectp/Libraries/TouchJSON/JSON/CJSONDataSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CJSONDeserializer.o /Developer/sri/projectp/Libraries/TouchJSON/JSON/CJSONDeserializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CJSONScanner.o /Developer/sri/projectp/Libraries/TouchJSON/JSON/CJSONScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CJSONSerializer.o /Developer/sri/projectp/Libraries/TouchJSON/JSON/CJSONSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CSerializedJSONData.o /Developer/sri/projectp/Libraries/TouchJSON/JSON/CSerializedJSONData.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOHTTPFormRequest.o /Developer/sri/projectp/Libraries/EGOHTTPRequest/EGOHTTPFormRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOHTTPRequest.o /Developer/sri/projectp/Libraries/EGOHTTPRequest/EGOHTTPRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOImageButton.o /Developer/sri/projectp/Libraries/EGOImageLoader/EGOImageButton/EGOImageButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOImageLoadConnection.o /Developer/sri/projectp/Libraries/EGOImageLoader/EGOImageLoader/EGOImageLoadConnection.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOImageLoader.o /Developer/sri/projectp/Libraries/EGOImageLoader/EGOImageLoader/EGOImageLoader.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOImageView.o /Developer/sri/projectp/Libraries/EGOImageLoader/EGOImageView/EGOImageView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOCache.o /Developer/sri/projectp/Libraries/EGOImageLoader/EGOCache/EGOCache.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/AFObject.o /Developer/sri/projectp/Classes/Models/AFObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/Spot.o /Developer/sri/projectp/Classes/Models/Spot.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CLLocationManager+AFExtensions.o /Developer/sri/projectp/Classes/Categories/CLLocationManager+AFExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CLLocation+AFExtensions.o /Developer/sri/projectp/Classes/Categories/CLLocation+AFExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/AFImageLoadingCell.o /Developer/sri/projectp/Classes/Views/AFImageLoadingCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/User.o /Developer/sri/projectp/Classes/Models/User.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CheckIn.o /Developer/sri/projectp/Classes/Models/CheckIn.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/ISO8601DateFormatter.o /Developer/sri/projectp/Classes/Categories/ISO8601DateFormatter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/NSData+Base64.o /Developer/sri/projectp/Classes/Categories/NSData+Base64.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CheckInSuccessViewController.o /Developer/sri/projectp/Classes/Controllers/CheckInSuccessViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/AuthenticationViewController.o /Developer/sri/projectp/Classes/Controllers/AuthenticationViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/GowallaAPI.o /Developer/sri/projectp/Classes/Helpers/GowallaAPI.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/PassportViewController.o /Developer/sri/projectp/Classes/Controllers/PassportViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/URLParser.o /Developer/sri/projectp/Libraries/URLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/AFSpotCell.o /Developer/sri/projectp/Classes/Views/AFSpotCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app/Gowalla-Basic normal i386
+cGenerateDSYMFile /Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app.dSYM /Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app/Gowalla-Basic
+cTouch /Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AddressBook.framework/Headers/AddressBook.h
+c000000004CC122DB0000000000000424
+t1287725787
+s1060
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004CC127E80000000000074190
+t1287727080
+s475536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004CC127DD00000000000001D0
+t1287727069
+s464
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004CC1294D00000000000002FE
+t1287727437
+s766
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004CC12977000000000017E7F0
+t1287727479
+s1566704
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC12431000000000015CDB0
+t1287726129
+s1428912
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
+c000000004CB3FA080000000000001ADD
+t1286863368
+s6877
+
+N/Developer/sri/projectp/Classes/Categories/CLLocation+AFExtensions.h
+c000000004D33AAA700000000000001A6
+t1295231655
+s422
+i<CoreLocation/CoreLocation.h>
+
+N/Developer/sri/projectp/Classes/Categories/CLLocation+AFExtensions.m
+c000000004D33AAA70000000000000FF4
+t1295231655
+s4084
+i"CLLocation+AFExtensions.h"
+
+N/Developer/sri/projectp/Classes/Categories/CLLocationManager+AFExtensions.h
+c000000004D33AAA700000000000002AD
+t1295231655
+s685
+i<Foundation/Foundation.h>
+i<CoreLocation/CoreLocation.h>
+
+N/Developer/sri/projectp/Classes/Categories/CLLocationManager+AFExtensions.m
+c000000004D33AAA70000000000000A8B
+t1295231655
+s2699
+i"CLLocationManager+AFExtensions.h"
+i"CLLocation+AFExtensions.h"
+
+N/Developer/sri/projectp/Classes/Categories/ISO8601DateFormatter.h
+c000000004D33AAA70000000000000BD4
+t1295231655
+s3028
+i<Foundation/Foundation.h>
+
+N/Developer/sri/projectp/Classes/Categories/ISO8601DateFormatter.m
+c000000004D33AAA70000000000005C53
+t1295231655
+s23635
+i<Foundation/Foundation.h>
+i"ISO8601DateFormatter.h"
+
+N/Developer/sri/projectp/Classes/Categories/NSData+Base64.h
+c000000004D33AAA700000000000000D0
+t1295231655
+s208
+i<Foundation/Foundation.h>
+
+N/Developer/sri/projectp/Classes/Categories/NSData+Base64.m
+c000000004D33AAA70000000000000A78
+t1295231655
+s2680
+i"NSData+Base64.h"
+
+N/Developer/sri/projectp/Classes/Controllers/AuthenticationViewController.h
+c000000004D33AAA7000000000000012B
+t1295231655
+s299
+i<UIKit/UIKit.h>
+
+N/Developer/sri/projectp/Classes/Controllers/AuthenticationViewController.m
+c000000004D33AAA700000000000003C6
+t1295231655
+s966
+i"AuthenticationViewController.h"
+
+N/Developer/sri/projectp/Classes/Controllers/CheckInSuccessViewController.h
+c000000004D33AAA70000000000000210
+t1295231655
+s528
+i<UIKit/UIKit.h>
+
+N/Developer/sri/projectp/Classes/Controllers/CheckInSuccessViewController.m
+c000000004D33AAA700000000000004BB
+t1295231655
+s1211
+i"CheckInSuccessViewController.h"
+i"CheckIn.h"
+
+N/Developer/sri/projectp/Classes/Controllers/PassportViewController.h
+c000000004D33AAA70000000000000274
+t1295231655
+s628
+i<UIKit/UIKit.h>
+
+N/Developer/sri/projectp/Classes/Controllers/PassportViewController.m
+c000000004D33AAA700000000000015DA
+t1295231655
+s5594
+i"PassportViewController.h"
+i"SpotViewController.h"
+i"User.h"
+i"CheckIn.h"
+i"Spot.h"
+i"EGOHTTPRequest.h"
+i"AFImageLoadingCell.h"
+i"EGOImageView.h"
+i"GowallaAPI.h"
+
+N/Developer/sri/projectp/Classes/Controllers/SpotViewController.h
+c000000004D33AAA700000000000003B8
+t1295231655
+s952
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i<MapKit/MapKit.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Developer/sri/projectp/Classes/Controllers/SpotViewController.m
+c000000004D33AAA700000000000022ED
+t1295231655
+s8941
+i"SpotViewController.h"
+i"CheckInSuccessViewController.h"
+i"PassportViewController.h"
+i"Spot.h"
+i"User.h"
+i"CheckIn.h"
+i"EGOHTTPRequest.h"
+i"EGOHTTPFormRequest.h"
+i"AFImageLoadingCell.h"
+i"CLLocationManager+AFExtensions.h"
+i"NSData+Base64.h"
+i"GowallaAPI.h"
+
+N/Developer/sri/projectp/Classes/Controllers/SpotsViewController.h
+c000000004D33AAA700000000000002FF
+t1295231655
+s767
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+
+N/Developer/sri/projectp/Classes/Controllers/SpotsViewController.m
+c000000004D33AAA70000000000001F12
+t1295231655
+s7954
+i"SpotsViewController.h"
+i"SpotViewController.h"
+i"Spot.h"
+i"User.h"
+i"GowallaAPI.h"
+i"AFSpotCell.h"
+i"CLLocationManager+AFExtensions.h"
+
+N/Developer/sri/projectp/Classes/Gowalla_BasicAppDelegate.h
+c000000004D33AAA700000000000002A8
+t1295231655
+s680
+i<UIKit/UIKit.h>
+
+N/Developer/sri/projectp/Classes/Gowalla_BasicAppDelegate.m
+c000000004D33AAA7000000000000117F
+t1295231655
+s4479
+i"Gowalla_BasicAppDelegate.h"
+i"AuthenticationViewController.h"
+i"EGOHTTPFormRequest.h"
+i"URLParser.h"
+
+N/Developer/sri/projectp/Classes/Helpers/GowallaAPI.h
+c000000004D33AAA70000000000000271
+t1295231655
+s625
+i<Foundation/Foundation.h>
+i"EGOHTTPRequest.h"
+i"EGOHTTPFormRequest.h"
+
+N/Developer/sri/projectp/Classes/Helpers/GowallaAPI.m
+c000000004D33AAA70000000000000C86
+t1295231655
+s3206
+i"GowallaAPI.h"
+
+N/Developer/sri/projectp/Classes/Models/AFObject.h
+c000000004D33AAA700000000000001B1
+t1295231655
+s433
+i<Foundation/Foundation.h>
+
+N/Developer/sri/projectp/Classes/Models/AFObject.m
+c000000004D33AAA7000000000000046D
+t1295231655
+s1133
+i"AFObject.h"
+
+N/Developer/sri/projectp/Classes/Models/CheckIn.h
+c000000004D33AAA700000000000001AE
+t1295231655
+s430
+i"AFObject.h"
+
+N/Developer/sri/projectp/Classes/Models/CheckIn.m
+c000000004D33AAA70000000000000623
+t1295231655
+s1571
+i"CheckIn.h"
+i"User.h"
+i"Spot.h"
+i"ISO8601DateFormatter.h"
+
+N/Developer/sri/projectp/Classes/Models/Spot.h
+c000000004D33AAA70000000000000396
+t1295231655
+s918
+i<CoreLocation/CoreLocation.h>
+i<MapKit/MapKit.h>
+i"AFObject.h"
+
+N/Developer/sri/projectp/Classes/Models/Spot.m
+c000000004D33AAA70000000000000BCF
+t1295231655
+s3023
+i<AddressBook/AddressBook.h>
+i"Spot.h"
+i"CheckIn.h"
+
+N/Developer/sri/projectp/Classes/Models/User.h
+c000000004D33AAA70000000000000476
+t1295231655
+s1142
+i"AFObject.h"
+
+N/Developer/sri/projectp/Classes/Models/User.m
+c000000004D33AAA7000000000000180B
+t1295231655
+s6155
+i"User.h"
+i"CheckIn.h"
+i"Spot.h"
+i"GowallaAPI.h"
+
+N/Developer/sri/projectp/Classes/Views/AFImageLoadingCell.h
+c000000004D33AAA70000000000000162
+t1295231655
+s354
+i<UIKit/UIKit.h>
+i"EGOImageView.h"
+
+N/Developer/sri/projectp/Classes/Views/AFImageLoadingCell.m
+c000000004D33AAA700000000000005BE
+t1295231655
+s1470
+i"AFImageLoadingCell.h"
+i"EGOImageView.h"
+
+N/Developer/sri/projectp/Classes/Views/AFSpotCell.h
+c000000004D33AAA70000000000000160
+t1295231655
+s352
+i"AFImageLoadingCell.h"
+
+N/Developer/sri/projectp/Classes/Views/AFSpotCell.m
+c000000004D33AAA700000000000003C5
+t1295231655
+s965
+i"AFSpotCell.h"
+
+N/Developer/sri/projectp/GowallaAPIKeys.h
+c000000004D33AAA70000000000000410
+t1295231655
+s1040
+
+N/Developer/sri/projectp/Gowalla_Basic_Prefix.pch
+c000000004D33AAA700000000000001CB
+t1295231655
+s459
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"NSDictionary_JSONExtensions.h"
+i"GowallaAPIKeys.h"
+
+N/Developer/sri/projectp/Libraries/EGOHTTPRequest/EGOHTTPFormRequest.h
+c000000004D33AAA700000000000006B8
+t1295231655
+s1720
+i"EGOHTTPRequest.h"
+
+N/Developer/sri/projectp/Libraries/EGOHTTPRequest/EGOHTTPFormRequest.m
+c000000004D33AAA70000000000000E15
+t1295231655
+s3605
+i"EGOHTTPFormRequest.h"
+
+N/Developer/sri/projectp/Libraries/EGOHTTPRequest/EGOHTTPRequest.h
+c000000004D33AAA70000000000000B61
+t1295231655
+s2913
+i<Foundation/Foundation.h>
+
+N/Developer/sri/projectp/Libraries/EGOHTTPRequest/EGOHTTPRequest.m
+c000000004D33AAA7000000000000211B
+t1295231655
+s8475
+i"EGOHTTPRequest.h"
+
+N/Developer/sri/projectp/Libraries/EGOImageLoader/EGOCache/EGOCache.h
+c000000004D33AAA70000000000000B3A
+t1295231655
+s2874
+i<Foundation/Foundation.h>
+
+N/Developer/sri/projectp/Libraries/EGOImageLoader/EGOCache/EGOCache.m
+c000000004D33AAA700000000000026B4
+t1295231655
+s9908
+i"EGOCache.h"
+
+N/Developer/sri/projectp/Libraries/EGOImageLoader/EGOImageButton/EGOImageButton.h
+c000000004D33AAA700000000000007F1
+t1295231655
+s2033
+i<UIKit/UIKit.h>
+i"EGOImageLoader.h"
+
+N/Developer/sri/projectp/Libraries/EGOImageLoader/EGOImageButton/EGOImageButton.m
+c000000004D33AAA70000000000000DCC
+t1295231655
+s3532
+i"EGOImageButton.h"
+
+N/Developer/sri/projectp/Libraries/EGOImageLoader/EGOImageLoader/EGOImageLoadConnection.h
+c000000004D33AAA700000000000008AD
+t1295231655
+s2221
+i<Foundation/Foundation.h>
+
+N/Developer/sri/projectp/Libraries/EGOImageLoader/EGOImageLoader/EGOImageLoadConnection.m
+c000000004D33AAA70000000000000C67
+t1295231655
+s3175
+i"EGOImageLoadConnection.h"
+
+N/Developer/sri/projectp/Libraries/EGOImageLoader/EGOImageLoader/EGOImageLoader.h
+c000000004D33AAA70000000000000928
+t1295231655
+s2344
+i<Foundation/Foundation.h>
+
+N/Developer/sri/projectp/Libraries/EGOImageLoader/EGOImageLoader/EGOImageLoader.m
+c000000004D33AAA70000000000001C7A
+t1295231655
+s7290
+i"EGOImageLoader.h"
+i"EGOImageLoadConnection.h"
+i"EGOCache.h"
+
+N/Developer/sri/projectp/Libraries/EGOImageLoader/EGOImageView/EGOImageView.h
+c000000004D33AAA700000000000007DA
+t1295231655
+s2010
+i<UIKit/UIKit.h>
+i"EGOImageLoader.h"
+
+N/Developer/sri/projectp/Libraries/EGOImageLoader/EGOImageView/EGOImageView.m
+c000000004D33AAA70000000000000D3F
+t1295231655
+s3391
+i"EGOImageView.h"
+i"EGOImageLoader.h"
+
+N/Developer/sri/projectp/Libraries/TouchJSON/CDataScanner.h
+c000000004D33AAA7000000000000095B
+t1295231655
+s2395
+i<Foundation/Foundation.h>
+
+N/Developer/sri/projectp/Libraries/TouchJSON/CDataScanner.m
+c000000004D33AAA70000000000001674
+t1295231655
+s5748
+i"CDataScanner.h"
+i"CDataScanner_Extensions.h"
+
+N/Developer/sri/projectp/Libraries/TouchJSON/Extensions/CDataScanner_Extensions.h
+c000000004D33AAA700000000000005AD
+t1295231655
+s1453
+i"CDataScanner.h"
+
+N/Developer/sri/projectp/Libraries/TouchJSON/Extensions/CDataScanner_Extensions.m
+c000000004D33AAA700000000000009EC
+t1295231655
+s2540
+i"CDataScanner_Extensions.h"
+i"NSCharacterSet_Extensions.h"
+
+N/Developer/sri/projectp/Libraries/TouchJSON/Extensions/NSCharacterSet_Extensions.h
+c000000004D33AAA7000000000000057A
+t1295231655
+s1402
+i<Foundation/Foundation.h>
+
+N/Developer/sri/projectp/Libraries/TouchJSON/Extensions/NSCharacterSet_Extensions.m
+c000000004D33AAA70000000000000731
+t1295231655
+s1841
+i"NSCharacterSet_Extensions.h"
+
+N/Developer/sri/projectp/Libraries/TouchJSON/Extensions/NSDictionary_JSONExtensions.h
+c000000004D33AAA70000000000000598
+t1295231655
+s1432
+i<Foundation/Foundation.h>
+
+N/Developer/sri/projectp/Libraries/TouchJSON/Extensions/NSDictionary_JSONExtensions.m
+c000000004D33AAA70000000000000613
+t1295231655
+s1555
+i"NSDictionary_JSONExtensions.h"
+i"CJSONDeserializer.h"
+
+N/Developer/sri/projectp/Libraries/TouchJSON/Extensions/NSScanner_Extensions.h
+c000000004D33AAA70000000000000656
+t1295231655
+s1622
+i<Foundation/Foundation.h>
+
+N/Developer/sri/projectp/Libraries/TouchJSON/Extensions/NSScanner_Extensions.m
+c000000004D33AAA70000000000000D65
+t1295231655
+s3429
+i"NSScanner_Extensions.h"
+i"NSCharacterSet_Extensions.h"
+
+N/Developer/sri/projectp/Libraries/TouchJSON/JSON/CJSONDataSerializer.h
+c000000004D33AAA70000000000000716
+t1295231655
+s1814
+i<Foundation/Foundation.h>
+
+N/Developer/sri/projectp/Libraries/TouchJSON/JSON/CJSONDataSerializer.m
+c000000004D33AAA70000000000001AB2
+t1295231655
+s6834
+i"CJSONDataSerializer.h"
+i"CSerializedJSONData.h"
+
+N/Developer/sri/projectp/Libraries/TouchJSON/JSON/CJSONDeserializer.h
+c000000004D33AAA70000000000000681
+t1295231655
+s1665
+i<Foundation/Foundation.h>
+
+N/Developer/sri/projectp/Libraries/TouchJSON/JSON/CJSONDeserializer.m
+c000000004D33AAA70000000000000B3A
+t1295231655
+s2874
+i"CJSONDeserializer.h"
+i"CJSONScanner.h"
+i"CDataScanner.h"
+
+N/Developer/sri/projectp/Libraries/TouchJSON/JSON/CJSONScanner.h
+c000000004D33AAA7000000000000081C
+t1295231655
+s2076
+i"CDataScanner.h"
+
+N/Developer/sri/projectp/Libraries/TouchJSON/JSON/CJSONScanner.m
+c000000004D33AAA700000000000039AA
+t1295231655
+s14762
+i"CJSONScanner.h"
+i"NSCharacterSet_Extensions.h"
+i"CDataScanner_Extensions.h"
+
+N/Developer/sri/projectp/Libraries/TouchJSON/JSON/CJSONSerializer.h
+c000000004D33AAA70000000000000787
+t1295231655
+s1927
+i<Foundation/Foundation.h>
+
+N/Developer/sri/projectp/Libraries/TouchJSON/JSON/CJSONSerializer.m
+c000000004D33AAA700000000000008C6
+t1295231655
+s2246
+i"CJSONSerializer.h"
+i"CJSONDataSerializer.h"
+
+N/Developer/sri/projectp/Libraries/TouchJSON/JSON/CSerializedJSONData.h
+c000000004D33AAA700000000000005A9
+t1295231655
+s1449
+i<Foundation/Foundation.h>
+
+N/Developer/sri/projectp/Libraries/TouchJSON/JSON/CSerializedJSONData.m
+c000000004D33AAA700000000000005FB
+t1295231655
+s1531
+i"CSerializedJSONData.h"
+
+N/Developer/sri/projectp/Libraries/URLParser.h
+c000000004D33AAA700000000000000F5
+t1295231655
+s245
+i<Foundation/Foundation.h>
+
+N/Developer/sri/projectp/Libraries/URLParser.m
+c000000004D33AAA700000000000004E4
+t1295231655
+s1252
+i"URLParser.h"
+
+N/Developer/sri/projectp/Resources/Images/button-orange-active_308.png
+c000000004D33AAA700000000000038A0
+t1295231655
+s14496
+
+N/Developer/sri/projectp/Resources/Images/button-orange_308.png
+c000000004D33AAA70000000000003893
+t1295231655
+s14483
+
+N/Developer/sri/projectp/Resources/Images/checkmark-corner_22.png
+c000000004D33AAA700000000000001BA
+t1295231655
+s442
+
+N/Developer/sri/projectp/Resources/XIB/AuthenticationView.xib
+c000000004D33AAA700000000000045A6
+t1295231655
+s17830
+
+N/Developer/sri/projectp/Resources/XIB/CheckInSuccessView.xib
+c000000004D33AAA70000000000004419
+t1295231655
+s17433
+
+N/Developer/sri/projectp/Resources/XIB/MainWindow.xib
+c000000004D33AAA70000000000006018
+t1295231655
+s24600
+
+N/Developer/sri/projectp/Resources/XIB/PassportView.xib
+c000000004D33AAA70000000000007009
+t1295231655
+s28681
+
+N/Developer/sri/projectp/Resources/XIB/SpotView.xib
+c000000004D33AAA70000000000006747
+t1295231655
+s26439
+
+N/Developer/sri/projectp/Resources/XIB/SpotsView.xib
+c000000004D33AAA700000000000042DE
+t1295231655
+s17118
+
+N/Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app
+t1295231869
+s476
+
+N/Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app.dSYM
+t1295231869
+s102
+
+N/Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app/AuthenticationView.nib
+t1295231865
+s1022
+
+N/Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app/CheckInSuccessView.nib
+t1295231866
+s992
+
+N/Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app/Gowalla-Basic
+t1295231869
+s264916
+
+N/Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app/Info.plist
+t1295231864
+s746
+
+N/Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app/MainWindow.nib
+t1295231865
+s1531
+
+N/Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app/PassportView.nib
+t1295231865
+s2047
+
+N/Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app/PkgInfo
+t1295231864
+s8
+
+N/Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app/SpotView.nib
+t1295231865
+s3354
+
+N/Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app/SpotsView.nib
+t1295231864
+s1943
+
+N/Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app/button-orange-active_308.png
+t1295231866
+s14496
+
+N/Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app/button-orange_308.png
+t1295231866
+s14483
+
+N/Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app/checkmark-corner_22.png
+t1295231866
+s442
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/AFImageLoadingCell.o
+t1295231868
+s45672
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/AFObject.o
+t1295231868
+s14312
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/AFSpotCell.o
+t1295231869
+s42276
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/AuthenticationViewController.o
+t1295231869
+s42684
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CDataScanner.o
+t1295231867
+s26520
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CDataScanner_Extensions.o
+t1295231867
+s10020
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CJSONDataSerializer.o
+t1295231868
+s24124
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CJSONDeserializer.o
+t1295231867
+s11536
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CJSONScanner.o
+t1295231868
+s33924
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CJSONSerializer.o
+t1295231868
+s12360
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CLLocation+AFExtensions.o
+t1295231868
+s14924
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CLLocationManager+AFExtensions.o
+t1295231868
+s16060
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CSerializedJSONData.o
+t1295231868
+s8052
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CheckIn.o
+t1295231868
+s17552
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CheckInSuccessViewController.o
+t1295231869
+s45024
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOCache.o
+t1295231868
+s38300
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOHTTPFormRequest.o
+t1295231868
+s19760
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOHTTPRequest.o
+t1295231868
+s46860
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOImageButton.o
+t1295231868
+s49700
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOImageLoadConnection.o
+t1295231868
+s20520
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOImageLoader.o
+t1295231868
+s29924
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOImageView.o
+t1295231868
+s49204
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/Gowalla-Basic.LinkFileList
+c000000004D33AB78000000000000127A
+t1295231864
+s4730
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/GowallaAPI.o
+t1295231869
+s16340
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/Gowalla_BasicAppDelegate.o
+t1295231867
+s63720
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/ISO8601DateFormatter.o
+t1295231869
+s48788
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/NSCharacterSet_Extensions.o
+t1295231867
+s6912
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/NSData+Base64.o
+t1295231869
+s9644
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/NSDictionary_JSONExtensions.o
+t1295231867
+s7188
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/NSScanner_Extensions.o
+t1295231867
+s13524
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/PassportViewController.o
+t1295231869
+s64500
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/Spot.o
+t1295231868
+s28452
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/SpotViewController.o
+t1295231867
+s85564
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/SpotsViewController.o
+t1295231867
+s78128
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/URLParser.o
+t1295231869
+s12788
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/User.o
+t1295231869
+s37396
+
+N/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/main.o
+t1295231867
+s6272
+
+N/Developer/sri/projectp/main.m
+c000000004D33AAA7000000000000016F
+t1295231655
+s367
+i<UIKit/UIKit.h>
+
+N/var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch.gch
+t1295231867
+s15461648
+
+NResources/Info.plist
+c000000004D33AAA7000000000000047B
+t1295231655
+s1147
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies316924664#316924664#0(0"0(0#1#0"8605811904#0"0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/AFImageLoadingCell.o /Developer/sri/projectp/Classes/Views/AFImageLoadingCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924668.749957
+e316924668.849289
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/AFImageLoadingCell.o
+x/Developer/sri/projectp/Classes/Views/AFImageLoadingCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Developer/sri/projectp/Classes/Views/AFImageLoadingCell.m316924668#316924668#0(0"0(0#0#58"/Developer/sri/projectp/Classes/Views/AFImageLoadingCell.m8607890432#1911"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Classes/Views/AFImageLoadingCell.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/AFImageLoadingCell.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/AFObject.o /Developer/sri/projectp/Classes/Models/AFObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924668.539282
+e316924668.625300
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/AFObject.o
+x/Developer/sri/projectp/Classes/Models/AFObject.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Developer/sri/projectp/Classes/Models/AFObject.m316924668#316924668#0(0"0(0#0#49"/Developer/sri/projectp/Classes/Models/AFObject.m8606575008#1892"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Classes/Models/AFObject.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/AFObject.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/AFSpotCell.o /Developer/sri/projectp/Classes/Views/AFSpotCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924669.333973
+e316924669.430752
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/AFSpotCell.o
+x/Developer/sri/projectp/Classes/Views/AFSpotCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Developer/sri/projectp/Classes/Views/AFSpotCell.m316924669#316924669#0(0"0(0#0#50"/Developer/sri/projectp/Classes/Views/AFSpotCell.m8604410944#1895"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Classes/Views/AFSpotCell.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/AFSpotCell.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/AuthenticationViewController.o /Developer/sri/projectp/Classes/Controllers/AuthenticationViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924669.133970
+e316924669.236199
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/AuthenticationViewController.o
+x/Developer/sri/projectp/Classes/Controllers/AuthenticationViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Developer/sri/projectp/Classes/Controllers/AuthenticationViewController.m316924669#316924669#0(0"0(0#0#74"/Developer/sri/projectp/Classes/Controllers/AuthenticationViewController.m8606397184#1937"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Classes/Controllers/AuthenticationViewController.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/AuthenticationViewController.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CDataScanner.o /Developer/sri/projectp/Libraries/TouchJSON/CDataScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924667.592664
+e316924667.759618
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CDataScanner.o
+x/Developer/sri/projectp/Libraries/TouchJSON/CDataScanner.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Developer/sri/projectp/Libraries/TouchJSON/CDataScanner.m316924667#316924667#0(0"0(0#0#58"/Developer/sri/projectp/Libraries/TouchJSON/CDataScanner.m8608380128#1905"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Libraries/TouchJSON/CDataScanner.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CDataScanner.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CDataScanner_Extensions.o /Developer/sri/projectp/Libraries/TouchJSON/Extensions/CDataScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924667.641653
+e316924667.706870
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CDataScanner_Extensions.o
+x/Developer/sri/projectp/Libraries/TouchJSON/Extensions/CDataScanner_Extensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Developer/sri/projectp/Libraries/TouchJSON/Extensions/CDataScanner_Extensions.m316924667#316924667#0(0"0(0#0#80"/Developer/sri/projectp/Libraries/TouchJSON/Extensions/CDataScanner_Extensions.m8608078272#1938"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Libraries/TouchJSON/Extensions/CDataScanner_Extensions.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CDataScanner_Extensions.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CJSONDataSerializer.o /Developer/sri/projectp/Libraries/TouchJSON/JSON/CJSONDataSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924667.833928
+e316924668.015492
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CJSONDataSerializer.o
+x/Developer/sri/projectp/Libraries/TouchJSON/JSON/CJSONDataSerializer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Developer/sri/projectp/Libraries/TouchJSON/JSON/CJSONDataSerializer.m316924667#316924668#0(0"0(0#0#70"/Developer/sri/projectp/Libraries/TouchJSON/JSON/CJSONDataSerializer.m8603769312#1924"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Libraries/TouchJSON/JSON/CJSONDataSerializer.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CJSONDataSerializer.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CJSONDeserializer.o /Developer/sri/projectp/Libraries/TouchJSON/JSON/CJSONDeserializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924667.910805
+e316924667.990858
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CJSONDeserializer.o
+x/Developer/sri/projectp/Libraries/TouchJSON/JSON/CJSONDeserializer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Developer/sri/projectp/Libraries/TouchJSON/JSON/CJSONDeserializer.m316924667#316924667#0(0"0(0#0#68"/Developer/sri/projectp/Libraries/TouchJSON/JSON/CJSONDeserializer.m8608779936#1920"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Libraries/TouchJSON/JSON/CJSONDeserializer.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CJSONDeserializer.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CJSONScanner.o /Developer/sri/projectp/Libraries/TouchJSON/JSON/CJSONScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924667.990954
+e316924668.182828
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CJSONScanner.o
+x/Developer/sri/projectp/Libraries/TouchJSON/JSON/CJSONScanner.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Developer/sri/projectp/Libraries/TouchJSON/JSON/CJSONScanner.m316924667#316924668#0(0"0(0#0#63"/Developer/sri/projectp/Libraries/TouchJSON/JSON/CJSONScanner.m8608202400#1910"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Libraries/TouchJSON/JSON/CJSONScanner.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CJSONScanner.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CJSONSerializer.o /Developer/sri/projectp/Libraries/TouchJSON/JSON/CJSONSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924668.015588
+e316924668.101022
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CJSONSerializer.o
+x/Developer/sri/projectp/Libraries/TouchJSON/JSON/CJSONSerializer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Developer/sri/projectp/Libraries/TouchJSON/JSON/CJSONSerializer.m316924668#316924668#0(0"0(0#0#66"/Developer/sri/projectp/Libraries/TouchJSON/JSON/CJSONSerializer.m8608020032#1916"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Libraries/TouchJSON/JSON/CJSONSerializer.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CJSONSerializer.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CLLocation+AFExtensions.o /Developer/sri/projectp/Classes/Categories/CLLocation+AFExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924668.745740
+e316924668.838870
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CLLocation+AFExtensions.o
+x/Developer/sri/projectp/Classes/Categories/CLLocation+AFExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Developer/sri/projectp/Classes/Categories/CLLocation+AFExtensions.m316924668#316924668#0(0"0(0#0#68"/Developer/sri/projectp/Classes/Categories/CLLocation+AFExtensions.m8608169152#1926"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Classes/Categories/CLLocation+AFExtensions.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CLLocation+AFExtensions.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CLLocationManager+AFExtensions.o /Developer/sri/projectp/Classes/Categories/CLLocationManager+AFExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924668.668294
+e316924668.749859
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CLLocationManager+AFExtensions.o
+x/Developer/sri/projectp/Classes/Categories/CLLocationManager+AFExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Developer/sri/projectp/Classes/Categories/CLLocationManager+AFExtensions.m316924668#316924668#0(0"0(0#0#75"/Developer/sri/projectp/Classes/Categories/CLLocationManager+AFExtensions.m8609341248#1940"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Classes/Categories/CLLocationManager+AFExtensions.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CLLocationManager+AFExtensions.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CSerializedJSONData.o /Developer/sri/projectp/Libraries/TouchJSON/JSON/CSerializedJSONData.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924668.101118
+e316924668.161707
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CSerializedJSONData.o
+x/Developer/sri/projectp/Libraries/TouchJSON/JSON/CSerializedJSONData.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Developer/sri/projectp/Libraries/TouchJSON/JSON/CSerializedJSONData.m316924668#316924668#0(0"0(0#0#70"/Developer/sri/projectp/Libraries/TouchJSON/JSON/CSerializedJSONData.m8610744672#1924"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Libraries/TouchJSON/JSON/CSerializedJSONData.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CSerializedJSONData.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CheckIn.o /Developer/sri/projectp/Classes/Models/CheckIn.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924668.849389
+e316924668.946892
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CheckIn.o
+x/Developer/sri/projectp/Classes/Models/CheckIn.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Developer/sri/projectp/Classes/Models/CheckIn.m316924668#316924668#0(0"0(0#0#48"/Developer/sri/projectp/Classes/Models/CheckIn.m8604302080#1890"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Classes/Models/CheckIn.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CheckIn.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CheckInSuccessViewController.o /Developer/sri/projectp/Classes/Controllers/CheckInSuccessViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924669.090180
+e316924669.180943
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CheckInSuccessViewController.o
+x/Developer/sri/projectp/Classes/Controllers/CheckInSuccessViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Developer/sri/projectp/Classes/Controllers/CheckInSuccessViewController.m316924669#316924669#0(0"0(0#0#74"/Developer/sri/projectp/Classes/Controllers/CheckInSuccessViewController.m8607931392#1937"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Classes/Controllers/CheckInSuccessViewController.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/CheckInSuccessViewController.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOCache.o /Developer/sri/projectp/Libraries/EGOImageLoader/EGOCache/EGOCache.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924668.526968
+e316924668.668045
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOCache.o
+x/Developer/sri/projectp/Libraries/EGOImageLoader/EGOCache/EGOCache.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Developer/sri/projectp/Libraries/EGOImageLoader/EGOCache/EGOCache.m316924668#316924668#0(0"0(0#0#68"/Developer/sri/projectp/Libraries/EGOImageLoader/EGOCache/EGOCache.m8608021568#1911"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Libraries/EGOImageLoader/EGOCache/EGOCache.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOCache.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOHTTPFormRequest.o /Developer/sri/projectp/Libraries/EGOHTTPRequest/EGOHTTPFormRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924668.161792
+e316924668.287947
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOHTTPFormRequest.o
+x/Developer/sri/projectp/Libraries/EGOHTTPRequest/EGOHTTPFormRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Developer/sri/projectp/Libraries/EGOHTTPRequest/EGOHTTPFormRequest.m316924668#316924668#0(0"0(0#0#69"/Developer/sri/projectp/Libraries/EGOHTTPRequest/EGOHTTPFormRequest.m8609143616#1922"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Libraries/EGOHTTPRequest/EGOHTTPFormRequest.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOHTTPFormRequest.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOHTTPRequest.o /Developer/sri/projectp/Libraries/EGOHTTPRequest/EGOHTTPRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924668.183472
+e316924668.340936
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOHTTPRequest.o
+x/Developer/sri/projectp/Libraries/EGOHTTPRequest/EGOHTTPRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Developer/sri/projectp/Libraries/EGOHTTPRequest/EGOHTTPRequest.m316924668#316924668#0(0"0(0#0#65"/Developer/sri/projectp/Libraries/EGOHTTPRequest/EGOHTTPRequest.m8608497376#1914"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Libraries/EGOHTTPRequest/EGOHTTPRequest.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOHTTPRequest.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOImageButton.o /Developer/sri/projectp/Libraries/EGOImageLoader/EGOImageButton/EGOImageButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924668.288042
+e316924668.418474
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOImageButton.o
+x/Developer/sri/projectp/Libraries/EGOImageLoader/EGOImageButton/EGOImageButton.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Developer/sri/projectp/Libraries/EGOImageLoader/EGOImageButton/EGOImageButton.m316924668#316924668#0(0"0(0#0#80"/Developer/sri/projectp/Libraries/EGOImageLoader/EGOImageButton/EGOImageButton.m8606486368#1929"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Libraries/EGOImageLoader/EGOImageButton/EGOImageButton.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOImageButton.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOImageLoadConnection.o /Developer/sri/projectp/Libraries/EGOImageLoader/EGOImageLoader/EGOImageLoadConnection.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924668.341043
+e316924668.435176
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOImageLoadConnection.o
+x/Developer/sri/projectp/Libraries/EGOImageLoader/EGOImageLoader/EGOImageLoadConnection.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Developer/sri/projectp/Libraries/EGOImageLoader/EGOImageLoader/EGOImageLoadConnection.m316924668#316924668#0(0"0(0#0#88"/Developer/sri/projectp/Libraries/EGOImageLoader/EGOImageLoader/EGOImageLoadConnection.m8603897984#1945"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Libraries/EGOImageLoader/EGOImageLoader/EGOImageLoadConnection.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOImageLoadConnection.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOImageLoader.o /Developer/sri/projectp/Libraries/EGOImageLoader/EGOImageLoader/EGOImageLoader.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924668.418568
+e316924668.539188
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOImageLoader.o
+x/Developer/sri/projectp/Libraries/EGOImageLoader/EGOImageLoader/EGOImageLoader.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Developer/sri/projectp/Libraries/EGOImageLoader/EGOImageLoader/EGOImageLoader.m316924668#316924668#0(0"0(0#0#80"/Developer/sri/projectp/Libraries/EGOImageLoader/EGOImageLoader/EGOImageLoader.m8610008352#1929"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Libraries/EGOImageLoader/EGOImageLoader/EGOImageLoader.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOImageLoader.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOImageView.o /Developer/sri/projectp/Libraries/EGOImageLoader/EGOImageView/EGOImageView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924668.435272
+e316924668.526873
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOImageView.o
+x/Developer/sri/projectp/Libraries/EGOImageLoader/EGOImageView/EGOImageView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Developer/sri/projectp/Libraries/EGOImageLoader/EGOImageView/EGOImageView.m316924668#316924668#0(0"0(0#0#76"/Developer/sri/projectp/Libraries/EGOImageLoader/EGOImageView/EGOImageView.m8608672992#1923"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Libraries/EGOImageLoader/EGOImageView/EGOImageView.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/EGOImageView.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/GowallaAPI.o /Developer/sri/projectp/Classes/Helpers/GowallaAPI.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924669.181044
+e316924669.258064
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/GowallaAPI.o
+x/Developer/sri/projectp/Classes/Helpers/GowallaAPI.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Developer/sri/projectp/Classes/Helpers/GowallaAPI.m316924669#316924669#0(0"0(0#0#52"/Developer/sri/projectp/Classes/Helpers/GowallaAPI.m8608686528#1897"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Classes/Helpers/GowallaAPI.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/GowallaAPI.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/Gowalla_BasicAppDelegate.o /Developer/sri/projectp/Classes/Gowalla_BasicAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924667.233772
+e316924667.407857
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/Gowalla_BasicAppDelegate.o
+x/Developer/sri/projectp/Classes/Gowalla_BasicAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Developer/sri/projectp/Classes/Gowalla_BasicAppDelegate.m316924667#316924667#0(0"0(0#0#58"/Developer/sri/projectp/Classes/Gowalla_BasicAppDelegate.m8608202112#1917"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Classes/Gowalla_BasicAppDelegate.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/Gowalla_BasicAppDelegate.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/ISO8601DateFormatter.o /Developer/sri/projectp/Classes/Categories/ISO8601DateFormatter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924668.946993
+e316924669.133745
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/ISO8601DateFormatter.o
+x/Developer/sri/projectp/Classes/Categories/ISO8601DateFormatter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Developer/sri/projectp/Classes/Categories/ISO8601DateFormatter.m316924668#316924669#0(0"0(0#0#65"/Developer/sri/projectp/Classes/Categories/ISO8601DateFormatter.m8610490112#1920"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Classes/Categories/ISO8601DateFormatter.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/ISO8601DateFormatter.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/NSCharacterSet_Extensions.o /Developer/sri/projectp/Libraries/TouchJSON/Extensions/NSCharacterSet_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924667.706966
+e316924667.801780
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/NSCharacterSet_Extensions.o
+x/Developer/sri/projectp/Libraries/TouchJSON/Extensions/NSCharacterSet_Extensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Developer/sri/projectp/Libraries/TouchJSON/Extensions/NSCharacterSet_Extensions.m316924667#316924667#0(0"0(0#0#82"/Developer/sri/projectp/Libraries/TouchJSON/Extensions/NSCharacterSet_Extensions.m8606397728#1942"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Libraries/TouchJSON/Extensions/NSCharacterSet_Extensions.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/NSCharacterSet_Extensions.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/NSData+Base64.o /Developer/sri/projectp/Classes/Categories/NSData+Base64.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924669.021391
+e316924669.090075
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/NSData+Base64.o
+x/Developer/sri/projectp/Classes/Categories/NSData+Base64.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Developer/sri/projectp/Classes/Categories/NSData+Base64.m316924669#316924669#0(0"0(0#0#58"/Developer/sri/projectp/Classes/Categories/NSData+Base64.m8608322944#1906"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Classes/Categories/NSData+Base64.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/NSData+Base64.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/NSDictionary_JSONExtensions.o /Developer/sri/projectp/Libraries/TouchJSON/Extensions/NSDictionary_JSONExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924667.759717
+e316924667.833834
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/NSDictionary_JSONExtensions.o
+x/Developer/sri/projectp/Libraries/TouchJSON/Extensions/NSDictionary_JSONExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Developer/sri/projectp/Libraries/TouchJSON/Extensions/NSDictionary_JSONExtensions.m316924667#316924667#0(0"0(0#0#84"/Developer/sri/projectp/Libraries/TouchJSON/Extensions/NSDictionary_JSONExtensions.m8604608800#1946"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Libraries/TouchJSON/Extensions/NSDictionary_JSONExtensions.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/NSDictionary_JSONExtensions.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/NSScanner_Extensions.o /Developer/sri/projectp/Libraries/TouchJSON/Extensions/NSScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924667.801879
+e316924667.910706
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/NSScanner_Extensions.o
+x/Developer/sri/projectp/Libraries/TouchJSON/Extensions/NSScanner_Extensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Developer/sri/projectp/Libraries/TouchJSON/Extensions/NSScanner_Extensions.m316924667#316924667#0(0"0(0#0#77"/Developer/sri/projectp/Libraries/TouchJSON/Extensions/NSScanner_Extensions.m8604180864#1932"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Libraries/TouchJSON/Extensions/NSScanner_Extensions.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/NSScanner_Extensions.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/PassportViewController.o /Developer/sri/projectp/Classes/Controllers/PassportViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924669.236311
+e316924669.411536
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/PassportViewController.o
+x/Developer/sri/projectp/Classes/Controllers/PassportViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Developer/sri/projectp/Classes/Controllers/PassportViewController.m316924669#316924669#0(0"0(0#0#68"/Developer/sri/projectp/Classes/Controllers/PassportViewController.m8608255392#1925"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Classes/Controllers/PassportViewController.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/PassportViewController.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/Spot.o /Developer/sri/projectp/Classes/Models/Spot.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924668.625407
+e316924668.745639
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/Spot.o
+x/Developer/sri/projectp/Classes/Models/Spot.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Developer/sri/projectp/Classes/Models/Spot.m316924668#316924668#0(0"0(0#0#45"/Developer/sri/projectp/Classes/Models/Spot.m8611044576#1884"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Classes/Models/Spot.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/Spot.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/SpotViewController.o /Developer/sri/projectp/Classes/Controllers/SpotViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924667.407954
+e316924667.641555
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/SpotViewController.o
+x/Developer/sri/projectp/Classes/Controllers/SpotViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Developer/sri/projectp/Classes/Controllers/SpotViewController.m316924667#316924667#0(0"0(0#0#64"/Developer/sri/projectp/Classes/Controllers/SpotViewController.m8610566688#1917"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Classes/Controllers/SpotViewController.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/SpotViewController.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/SpotsViewController.o /Developer/sri/projectp/Classes/Controllers/SpotsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924667.350581
+e316924667.592471
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/SpotsViewController.o
+x/Developer/sri/projectp/Classes/Controllers/SpotsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Developer/sri/projectp/Classes/Controllers/SpotsViewController.m316924667#316924667#0(0"0(0#0#65"/Developer/sri/projectp/Classes/Controllers/SpotsViewController.m8608014752#1919"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Classes/Controllers/SpotsViewController.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/SpotsViewController.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/URLParser.o /Developer/sri/projectp/Libraries/URLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924669.258166
+e316924669.333880
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/URLParser.o
+x/Developer/sri/projectp/Libraries/URLParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Developer/sri/projectp/Libraries/URLParser.m316924669#316924669#0(0"0(0#0#45"/Developer/sri/projectp/Libraries/URLParser.m8607947456#1889"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Libraries/URLParser.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/URLParser.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/User.o /Developer/sri/projectp/Classes/Models/User.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924668.838963
+e316924669.021289
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/User.o
+x/Developer/sri/projectp/Classes/Models/User.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Developer/sri/projectp/Classes/Models/User.m316924668#316924669#0(0"0(0#0#45"/Developer/sri/projectp/Classes/Models/User.m8605811712#1884"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/Classes/Models/User.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/User.o0#
+
+CCompileC build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/main.o /Developer/sri/projectp/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924667.232758
+e316924667.350470
+r1
+xCompileC
+xbuild/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/main.o
+x/Developer/sri/projectp/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Compile /Developer/sri/projectp/main.m316924667#316924667#0(0"0(0#0#30"/Developer/sri/projectp/main.m8608352064#1869"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -include /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch -c /Developer/sri/projectp/main.m -o /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Developer/sri/projectp/Resources/XIB/AuthenticationView.xib
+s316924665.382391
+e316924665.995681
+r1
+xCompileXIB
+x/Developer/sri/projectp/Resources/XIB/AuthenticationView.xib
+lSLF07#2@47"CompileXIB Resources/XIB/AuthenticationView.xib316924665#316924665#0(0"0(0#0#60"/Developer/sri/projectp/Resources/XIB/AuthenticationView.xib8607804512#561"    cd /Developer/sri/projectp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app/AuthenticationView.nib /Developer/sri/projectp/Resources/XIB/AuthenticationView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Developer/sri/projectp/Resources/XIB/CheckInSuccessView.xib
+s316924665.816975
+e316924666.225672
+r1
+xCompileXIB
+x/Developer/sri/projectp/Resources/XIB/CheckInSuccessView.xib
+lSLF07#2@47"CompileXIB Resources/XIB/CheckInSuccessView.xib316924665#316924666#0(0"0(0#0#60"/Developer/sri/projectp/Resources/XIB/CheckInSuccessView.xib8604525920#561"    cd /Developer/sri/projectp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app/CheckInSuccessView.nib /Developer/sri/projectp/Resources/XIB/CheckInSuccessView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Developer/sri/projectp/Resources/XIB/MainWindow.xib
+s316924664.973207
+e316924665.382304
+r1
+xCompileXIB
+x/Developer/sri/projectp/Resources/XIB/MainWindow.xib
+lSLF07#2@39"CompileXIB Resources/XIB/MainWindow.xib316924664#316924665#0(0"0(0#0#52"/Developer/sri/projectp/Resources/XIB/MainWindow.xib8609097504#545"    cd /Developer/sri/projectp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app/MainWindow.nib /Developer/sri/projectp/Resources/XIB/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Developer/sri/projectp/Resources/XIB/PassportView.xib
+s316924665.257971
+e316924665.816890
+r1
+xCompileXIB
+x/Developer/sri/projectp/Resources/XIB/PassportView.xib
+lSLF07#2@41"CompileXIB Resources/XIB/PassportView.xib316924665#316924665#0(0"0(0#0#54"/Developer/sri/projectp/Resources/XIB/PassportView.xib8608173888#549"    cd /Developer/sri/projectp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app/PassportView.nib /Developer/sri/projectp/Resources/XIB/PassportView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Developer/sri/projectp/Resources/XIB/SpotView.xib
+s316924664.511598
+e316924665.257882
+r1
+xCompileXIB
+x/Developer/sri/projectp/Resources/XIB/SpotView.xib
+lSLF07#2@37"CompileXIB Resources/XIB/SpotView.xib316924664#316924665#0(0"0(0#0#50"/Developer/sri/projectp/Resources/XIB/SpotView.xib8606288736#541"    cd /Developer/sri/projectp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app/SpotView.nib /Developer/sri/projectp/Resources/XIB/SpotView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Developer/sri/projectp/Resources/XIB/SpotsView.xib
+s316924664.510935
+e316924664.973115
+r1
+xCompileXIB
+x/Developer/sri/projectp/Resources/XIB/SpotsView.xib
+lSLF07#2@38"CompileXIB Resources/XIB/SpotsView.xib316924664#316924664#0(0"0(0#0#51"/Developer/sri/projectp/Resources/XIB/SpotsView.xib8608214528#543"    cd /Developer/sri/projectp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app/SpotsView.nib /Developer/sri/projectp/Resources/XIB/SpotsView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/Gowalla-Basic.app/button-orange-active_308.png Resources/Images/button-orange-active_308.png
+s316924665.997305
+e316924666.014162
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Gowalla-Basic.app/button-orange-active_308.png
+xResources/Images/button-orange-active_308.png
+lSLF07#2@50"Copy Resources/Images/button-orange-active_308.png316924665#316924666#0(0"0(0#0#69"/Developer/sri/projectp/Resources/Images/button-orange-active_308.png8610734400#464"    cd /Developer/sri/projectp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/sri/projectp/Resources/Images/button-orange-active_308.png /Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app0#
+
+CCpResource build/Debug-iphonesimulator/Gowalla-Basic.app/button-orange_308.png Resources/Images/button-orange_308.png
+s316924665.995813
+e316924666.012859
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Gowalla-Basic.app/button-orange_308.png
+xResources/Images/button-orange_308.png
+lSLF07#2@43"Copy Resources/Images/button-orange_308.png316924665#316924666#0(0"0(0#0#62"/Developer/sri/projectp/Resources/Images/button-orange_308.png8611308608#457"    cd /Developer/sri/projectp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/sri/projectp/Resources/Images/button-orange_308.png /Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app0#
+
+CCpResource build/Debug-iphonesimulator/Gowalla-Basic.app/checkmark-corner_22.png Resources/Images/checkmark-corner_22.png
+s316924665.999056
+e316924666.047426
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Gowalla-Basic.app/checkmark-corner_22.png
+xResources/Images/checkmark-corner_22.png
+lSLF07#2@45"Copy Resources/Images/checkmark-corner_22.png316924665#316924666#0(0"0(0#0#64"/Developer/sri/projectp/Resources/Images/checkmark-corner_22.png8610459008#459"    cd /Developer/sri/projectp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/sri/projectp/Resources/Images/checkmark-corner_22.png /Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app0#
+
+CGenerateDSYMFile /Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app.dSYM /Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app/Gowalla-Basic
+s316924669.601762
+e316924669.677246
+r1
+xGenerateDSYMFile
+x/Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app.dSYM
+x/Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app/Gowalla-Basic
+lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/Gowalla-Basic.app.dSYM build/Debug-iphonesimulator/Gowalla-Basic.app/Gowalla-Basic316924669#316924669#0(0"0(0#0#83"/Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app/Gowalla-Basic8608924672#356"    cd /Developer/sri/projectp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app/Gowalla-Basic -o /Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app.dSYM0#
+
+CLd /Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app/Gowalla-Basic normal i386
+s316924669.430849
+e316924669.601650
+r1
+xLd
+x/Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app/Gowalla-Basic
+xnormal
+xi386
+lSLF07#2@88"Link /Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app/Gowalla-Basic316924669#316924669#0(0"0(0#0#0"8603728416#919"    cd /Developer/sri/projectp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Developer/sri/projectp/build/Debug-iphonesimulator -F/Developer/sri/projectp/build/Debug-iphonesimulator -filelist /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Objects-normal/i386/Gowalla-Basic.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -framework QuartzCore -o /Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app/Gowalla-Basic0#
+
+CProcessInfoPlistFile /Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app/Info.plist Resources/Info.plist
+s316924664.481959
+e316924664.510845
+r1
+xProcessInfoPlistFile
+x/Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app/Info.plist
+xResources/Info.plist
+lSLF07#2@28"Process Resources/Info.plist316924664#316924664#0(0"0(0#0#44"/Developer/sri/projectp/Resources/Info.plist8610898336#448"    cd /Developer/sri/projectp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Resources/Info.plist -genpkginfo /Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app/Info.plist0#
+
+CProcessPCH /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch.gch Gowalla_Basic_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s316924666.225791
+e316924667.232644
+r1
+xProcessPCH
+x/var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch.gch
+xGowalla_Basic_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile Gowalla_Basic_Prefix.pch316924666#316924667#0(0"0(0#0#48"/Developer/sri/projectp/Gowalla_Basic_Prefix.pch8609245824#1770"    cd /Developer/sri/projectp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-generated-files.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-own-target-headers.hmap -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-all-target-headers.hmap -iquote /Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/Gowalla-Basic-project-headers.hmap -F/Developer/sri/projectp/build/Debug-iphonesimulator -I/Developer/sri/projectp/build/Debug-iphonesimulator/include -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources/i386 -I/Developer/sri/projectp/build/Gowalla-Basic.build/Debug-iphonesimulator/Gowalla-Basic.build/DerivedSources -c /Developer/sri/projectp/Gowalla_Basic_Prefix.pch -o /var/folders/h6/h6qhU6NTGz4Fq72Ixq4OoU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Gowalla_Basic_Prefix-hfsgvuxwjxevfnhfuasppbwfhbcf/Gowalla_Basic_Prefix.pch.gch0#
+
+CTouch /Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app
+s316924669.677329
+e316924669.680615
+r1
+xTouch
+x/Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app
+lSLF07#2@75"Touch /Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app316924669#316924669#0(0"0(0#0#0"8608111488#254"    cd /Developer/sri/projectp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Developer/sri/projectp/build/Debug-iphonesimulator/Gowalla-Basic.app0#
+
